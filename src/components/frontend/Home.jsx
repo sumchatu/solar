@@ -254,13 +254,17 @@ const home = () => {
               <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.</p>
             </div>
             <Swiper
-              modules={[ Pagination ]}
-              spaceBetween={50}
-              slidesPerView={3}
-              pagination={{ clickable: true }}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
-            >
+                modules={[Pagination]}
+                spaceBetween={20} // Reduce space for smaller devices
+                slidesPerView={1} // Default to 1 slide on smaller screens
+                breakpoints={{
+                  640: { slidesPerView: 1, spaceBetween: 10 }, // Small screens
+                  768: { slidesPerView: 2, spaceBetween: 20 }, // Tablets
+                  1024: { slidesPerView: 3, spaceBetween: 30 }, // Laptops and above
+                }}
+                pagination={{ clickable: true }}
+              >
+
               <SwiperSlide>
                 <div className='card shadow border-0'>
                   <div className='card-body p-5'>
