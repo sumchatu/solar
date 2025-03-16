@@ -2,7 +2,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './assets/css/style.scss';
-import Home from './components/frontend/home';
+import Home from './components/frontend/Home';
 import About from './components/frontend/About';
 import Services from './components/frontend/Services';
 import Projects from './components/frontend/Projects';
