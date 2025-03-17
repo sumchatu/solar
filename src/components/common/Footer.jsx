@@ -91,15 +91,15 @@ const Footer = () => {
             <h3 className='mb-3'>Contact Us</h3>
             <ul>
               <li>
-                <a href="tel:+919732097320">+91 9732097320</a>
+                <a href="tel:+919732097320">+91 9775550672</a>
               </li>
               <li>
                 <a href="mailto:abc@abc.com">abc@abc.com</a>
               </li>
               <p>
-                B-18X, TD Solar House<br />
-                Kolkata, West-Bengal<br />
-                700056
+                GN/Shop No. - G2 and G5, <br />Rajnandini Villa,<br />
+                Khardaha Thana Road, <br /> Near Avinobo Sweet,<br />
+                North 24 Parganas, <br /> Kolkata - 700116
               </p>
             </ul>
           </div>

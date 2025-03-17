@@ -1,10 +1,9 @@
 import React from 'react';
-// import './WhatsAppCTA.scss'; // Add custom styling for your WhatsApp CTA if needed
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faYoutube, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 function WhatsAppCTA() {
-  const whatsappNumber = '+919073117649'; // Replace with the actual WhatsApp number
+  const whatsappNumber = '+919775550672'; // Replace with the actual WhatsApp number
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (

@@ -30,10 +30,10 @@ const ContactUs = () => {
                                     <div className='card-body p-4'>
                                         <h3>Call Us</h3>
                                         <div>
-                                            <a href='#'>+91 9732097320</a>
+                                            <a href='#'>+91 9775550672</a>
                                         </div>
                                         <div>
-                                            <a href='#'>+91 9732197321</a>
+                                            <a href='#'>+91 9775550672</a>
                                         </div>
 
                                         <h3 className='mt-4'>You can write us</h3>
@@ -45,9 +45,13 @@ const ContactUs = () => {
                                         </div>
                                         
                                         <h3 className='mt-4'>Visit Us</h3>
-                                        <div>B-18X, TD Solar House<br/>
-                                            Kolkata, West-Bengal<br/>
-                                            700056
+                                        <div>
+                                           <u> Our office is located at:</u> <br />
+                                            <b>TD Solar (Technical Dwipayan)</b>
+                                            <br />
+                                            GN/Shop No. - G2 and G5, Rajnandini Villa,<br />
+                                            Khardaha Thana Road, Near Avinobo Sweet,<br />
+                                            North 24 Parganas, Kolkata - 700116
                                         </div>
                                     </div>
                                 </div>

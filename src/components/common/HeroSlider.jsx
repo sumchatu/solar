@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CarouselImg1 from '../../assets/images/carousel1.jpg';
 import CarouselImg2 from '../../assets/images/carousel2.jpg';
 import CarouselImg3 from '../../assets/images/carousel3.jpg';
+import CarouselImg4 from '../../assets/images/carousel4.jpg';
 
 export const HeroSlider = () => {
   return (
@@ -20,17 +21,15 @@ export const HeroSlider = () => {
                 />
                 <Carousel.Caption>
                 <span>Welcome To TD Solar</span>
-                <h1>
-                    Crafting dreams with<br />
-                    precious and excellence.
-                </h1>
+                <h2>
+                    Power Your Home with the Sun - Clean, Reliable, and Affordable Solar Energy by TD Solar!
+                </h2>
                 <p>
-                    We excel at transforming visions into reality through
-                    outstanding craftsmanship and precision.
+                    Switch to solar today and save on electricity bills while reducing your carbon footprint. Let TD Solar handle the setup – hassle-free!
                 </p>
                 <div className="mt-4">
-                    <a className="btn btn-primary large">Contact Now</a>
-                    <a className="btn btn-secondary large ms-2">View Projects</a>
+                    <a className="btn btn-primary small">Contact Now</a>
+                    <a className="btn btn-secondary small ms-2">View Projects</a>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -43,16 +42,15 @@ export const HeroSlider = () => {
                 />
                 <Carousel.Caption>
                 <span>Powering Your Future</span>
-                <h1>
-                    Renewable Energy<br />
-                    Built for Excellence.
-                </h1>
+                <h2>
+                    Go Solar, Save Big – Harness the Power of the Sun with TD Solar!
+                </h2>
                 <p>
-                    Empowering businesses with sustainable energy solutions.
+                    With TD Solar’s expert installations, enjoy unlimited energy savings and a greener planet. Start your solar journey now!
                 </p>
                 <div className="mt-4">
-                    <a className="btn btn-primary large">Contact Now</a>
-                    <a className="btn btn-secondary large ms-2">View Projects</a>
+                    <a className="btn btn-primary small">Contact Now</a>
+                    <a className="btn btn-secondary small ms-2">View Projects</a>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -64,17 +62,37 @@ export const HeroSlider = () => {
                 alt="Third slide"
                 />
                 <Carousel.Caption>
-                <span>Powering Your Future</span>
-                <h1>
-                    Renewable Energy<br />
-                    Built for Excellence.
-                </h1>
+                <span>Trust Built In</span>
+                <h2>
+                    Your Trusted Partner in Solar Energy – TD Solar’s Custom Solutions for Every Home!
+                </h2>
                 <p>
-                    Empowering businesses with sustainable energy solutions.
+                    From design to installation, TD Solar provides top-quality Solar PV systems tailored to your needs. Experience energy independence today!
                 </p>
                 <div className="mt-4">
-                    <a className="btn btn-primary large">Contact Now</a>
-                    <a className="btn btn-secondary large ms-2">View Projects</a>
+                    <a className="btn btn-primary small">Contact Now</a>
+                    <a className="btn btn-secondary small ms-2">View Projects</a>
+                </div>
+                </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={CarouselImg4}
+                alt="Fourth slide"
+                />
+                <Carousel.Caption>
+                <span>Simply Sustainable</span>
+                <h2>
+                    Solar Made Simple – Affordable, Efficient, and Eco-Friendly Energy Solutions by TD Solar!
+                </h2>
+                <p>
+                    Join the renewable energy revolution with TD Solar’s seamless Solar PV setups. Save money and protect the environment effortlessly.
+                </p>
+                <div className="mt-4">
+                    <a className="btn btn-primary small">Contact Now</a>
+                    <a className="btn btn-secondary small ms-2">View Projects</a>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>

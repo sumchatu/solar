@@ -36,12 +36,12 @@ const home = () => {
         {/* About-us Section Ends*/}
 
         {/* Our Services Starts*/}
-        <section className='section-3 bg-light py-5'>
+        <section className='section-3 bg-light py-3'>
           <div className='container-fluid py-5'>
             <div className='section-header text-center'>
               <span>our services</span>
               <h2>From Consultation to Installation</h2>
-              <p>We offer customized Solar Solutions for Every Need, Spanning Residential, Commercial, and Industrial Projects.</p>
+              <p>At TD Solar, we offer a wide range of services to meet your energy needs:</p>
             </div>
             <div className='row pt-4'>
               <div className='col-md-3 col-lg-3'>
@@ -51,10 +51,12 @@ const home = () => {
                   </div>
                   <div className='service-body'>
                     <div className='service-title'>
-                      <h3>Residential Solar solutions</h3>
+                      <h3>
+                        Solar PV Solutions
+                      </h3>
                     </div>
                     <div className='service-content'>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem nemo ab ut repellendus perspiciatis. Sapiente dolor est veritatis beatae ea nihil omnis, officiis minima maxime itaque ad. Fuga, velit.</p>
+                      <p>As a WBSEDCL-empanelled solar contractor, we design and install efficient solar power systems for residential, commercial, and government projects.</p>
                     </div>
                     <a href='/services/residential' className='btn btn-primary small'>Read More</a>
                   </div>
@@ -67,10 +69,10 @@ const home = () => {
                   </div>
                   <div className='service-body'>
                     <div className='service-title'>
-                      <h3>Commercial Solar solutions</h3>
+                      <h3>Government Electrical Contracting</h3>
                     </div>
                     <div className='service-content'>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis optio aspernatur temporibus sit sequi deserunt magni, officia ad iusto repellendus libero ut quo id repudiandae quam sed debitis dolore dolorum.</p>
+                      <p>We provide reliable electrical contracting services for government projects, ensuring quality and compliance.</p>
                     </div>
                     <a href='/services/commercial' className='btn btn-primary small'>Read More</a>
                   </div>
@@ -83,10 +85,10 @@ const home = () => {
                   </div>
                   <div className='service-body'>
                     <div className='service-title'>
-                      <h3>Solar system maintenance & troubleshooting</h3>
+                      <h3>Technical Consultancy</h3>
                     </div>
                     <div className='service-content'>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A odit, debitis ut labore quia ab! Eos esse laborum tempore fugiat sed harum, ab eligendi in tenetur? Distinctio tenetur asperiores eligendi!</p>
+                      <p>Our expert team offers tailored technical consultancy to help you make informed decisions about your energy needs</p>
                     </div>
                     <a href='/services/maintenance' className='btn btn-primary small'>Read More</a>
                   </div>
@@ -99,10 +101,10 @@ const home = () => {
                   </div>
                   <div className='service-body'>
                     <div className='service-title'>
-                      <h3>Solar Inverters and controllers servicing</h3>
+                      <h3>Technical Training School</h3>
                     </div>
                     <div className='service-content'>
-                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi accusantium exercitationem dignissimos inventore iusto, sed culpa. Sint vero ut quaerat assumenda mollitia, accusamus, accusantium commodi dicta, nostrum sequi tempore voluptates.</p>
+                      <p>We believe in empowering the next generation of technicians through our specialized training programs.</p>
                     </div>
                     <a href='/services/inverters' className='btn btn-primary small'>Read More</a>
                   </div>
@@ -114,51 +116,64 @@ const home = () => {
         {/* Our Services Ends*/}
 
         {/* Why Choose-us Starts*/}
-        <section className='section-4 py-5'>
+        <section className='section-4 py-3'>
           <div className='container py-5'>
           <div className='section-header text-center'>
-              <span>Wy Choose Us</span>
+              <span>Why Choose TD Solar?</span>
               <h2>Discover our wide variety of projects.</h2>
               <p>Created in close partnership with our clients and collaborators, this approach merges industry expertise,<br/>
               decades of experience, innovation, and flexibility to consistently deliver excellence.</p>
             </div>
             <div className='row pt-4'>
-              <div className='col-md-4'>
+              <div className='col-md-3'>
                 <div className='card shadow border-0 p-4'>
                   <div className='card-icon'>
                     <img src={Icon1} alt='' />
                   </div>
                   <div className='card-title mt-3'>
-                    <h3>Cutting-Edge Solutions</h3>
+                    <h3>Expertise:</h3>
                   </div>
                   <p>
-                  Small actions create big impacts. It all begins and ends with each employee committing to safer work practices daily, ensuring they return home safely.
+                    With years of experience in the electrical and solar industries, we bring unmatched knowledge and skills to every project.
                   </p>
                 </div>
               </div>
-              <div className='col-md-4'>
+              <div className='col-md-3'>
                 <div className='card shadow border-0 p-4'>
                   <div className='card-icon'>
                     <img src={Icon2} alt='' />
                   </div>
                   <div className='card-title mt-3'>
-                    <h3>Cutting-Edge Solutions</h3>
+                    <h3>Quality Assurance: </h3>
                   </div>
                   <p>
-                  Small actions create big impacts. It all begins and ends with each employee committing to safer work practices daily, ensuring they return home safely.
+                    We use only the best materials and follow industry standards to ensure long-lasting and efficient solutions.
                   </p>
                 </div>
               </div>
-              <div className='col-md-4'>
+              <div className='col-md-3'>
                 <div className='card shadow border-0 p-4'>
                   <div className='card-icon'>
                     <img src={Icon3} alt='' />
                   </div>
                   <div className='card-title mt-3'>
-                    <h3>Cutting-Edge Solutions</h3>
+                    <h3>Driven by you: </h3>
                   </div>
                   <p>
-                  Small actions create big impacts. It all begins and ends with each employee committing to safer work practices daily, ensuring they return home safely.
+                    Your satisfaction is our priority. We work closely with you to understand your needs and deliver customized solutions.
+                  </p>
+                </div>
+              </div>
+              <div className='col-md-3'>
+                <div className='card shadow border-0 p-4'>
+                  <div className='card-icon'>
+                    <img src={Icon3} alt='' />
+                  </div>
+                  <div className='card-title mt-3'>
+                    <h3>Sustainability: </h3>
+                  </div>
+                  <p>
+                    Passionate about renewable energy, reducing carbon footprints, and cutting energy costs.
                   </p>
                 </div>
               </div>
