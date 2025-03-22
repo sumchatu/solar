@@ -18,7 +18,8 @@ const About = () => {
                 </p>
                 <h3>Who We Are</h3>
                 <p>
-                  TD Solar is founded and led by Mr. Dwipayan Dey, a highly skilled B-Tech engineer in Electrical Engineering and Govt. contractor, With over 13 years of experience in the distribution sector, including his tenure with a non-governmental organization from 2008 to 2021, Mr. Dey brings a wealth of expertise and passion to the renewable energy industry. Today, as the proprietor of Technical Dwipayan, he leads a team of dedicated professionals who are passionate about driving the transition to clean energy.
+                  TD Solar is founded and led by Mr. Dwipayan Dey, a highly skilled B-Tech engineer in Electrical Engineering and a licensed Government contractor. With over 13 years of extensive experience in the power distribution sector, including his tenure with a non-governmental organization from 2008 to 2021, Mr. Dey brings a wealth of expertise, innovation, and passion to the renewable energy industry. His vast knowledge spans across solar power solutions, electrical system design, project management, and quality assurance, ensuring that every project meets the highest standards.<br />
+                  Today, as the proprietor of Technical Dwipayan, he leads a team of dedicated professionals who are committed to delivering top-notch solar installation services for residential, commercial, and industrial projects. Under his leadership, the company focuses on offering cutting-edge solar technologies, ensuring energy efficiency, and reducing carbon footprints. Mr. Dey’s vision is to make sustainable and affordable energy accessible to all, contributing significantly to India’s journey toward a greener and more sustainable future.
                 </p>
               </div>
             </div>

@@ -15,16 +15,17 @@ body{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h2{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3{
-    font-size: 1.5em;
+    font-size: 1em;
 }
+
 
 p{
     font-size: 1em;
@@ -252,6 +253,14 @@ footer {
 }
 
 .section-3{
+    span{
+        color: #32cd32;
+        font-size: 1.3em;
+        padding-bottom: 10px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
     .item{
         position: relative;
         overflow: hidden;

@@ -3,13 +3,17 @@ import React from 'react';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 import About from '../common/About';
-import ServiceImg from '../../assets/images/construction1.jpg';
 import ProjectImg from '../../assets/images/construction2.jpg';
 import BlogImg from '../../assets/images/construction3.jpg';
 import Icon1 from '../../assets/images/icon-1.svg';
 import Icon2 from '../../assets/images/icon-2.svg';
 import Icon3 from '../../assets/images/icon-3.svg';
+import Icon4 from '../../assets/images/icon-1.svg';
 import AvatarImg from '../../assets/images/author-2.jpg';
+import ServiceImg1 from '../../assets/images/serviceImg1.jpg';
+import ServiceImg2 from '../../assets/images/serviceImg2.jpg';
+import ServiceImg3 from '../../assets/images/serviceImg3.jpg';
+import ServiceImg4 from '../../assets/images/serviceImg4.jpg';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -36,7 +40,7 @@ const home = () => {
         {/* About-us Section Ends*/}
 
         {/* Our Services Starts*/}
-        <section className='section-3 bg-light py-3'>
+        <section className='section-3 bg-light py-2'>
           <div className='container-fluid py-5'>
             <div className='section-header text-center'>
               <span>our services</span>
@@ -47,7 +51,7 @@ const home = () => {
               <div className='col-md-3 col-lg-3'>
                 <div className='item'>
                   <div className='service-image'>
-                    <img src={ServiceImg} alt='' className='w-100' />
+                    <img src={ServiceImg1} alt='' className='w-100' />
                   </div>
                   <div className='service-body'>
                     <div className='service-title'>
@@ -58,14 +62,14 @@ const home = () => {
                     <div className='service-content'>
                       <p>As a WBSEDCL-empanelled solar contractor, we design and install efficient solar power systems for residential, commercial, and government projects.</p>
                     </div>
-                    <a href='/services/residential' className='btn btn-primary small'>Read More</a>
+                    <a href='/services' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div>
               <div className='col-md-3 col-lg-3'>
                 <div className='item'>
                   <div className='service-image'>
-                    <img src={ServiceImg} alt='' className='w-100' />
+                    <img src={ServiceImg2} alt='' className='w-100' />
                   </div>
                   <div className='service-body'>
                     <div className='service-title'>
@@ -74,14 +78,14 @@ const home = () => {
                     <div className='service-content'>
                       <p>We provide reliable electrical contracting services for government projects, ensuring quality and compliance.</p>
                     </div>
-                    <a href='/services/commercial' className='btn btn-primary small'>Read More</a>
+                    <a href='/services' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div>
               <div className='col-md-3 col-lg-3'>
                 <div className='item'>
                   <div className='service-image'>
-                    <img src={ServiceImg} alt='' className='w-100' />
+                    <img src={ServiceImg3} alt='' className='w-100' />
                   </div>
                   <div className='service-body'>
                     <div className='service-title'>
@@ -90,14 +94,14 @@ const home = () => {
                     <div className='service-content'>
                       <p>Our expert team offers tailored technical consultancy to help you make informed decisions about your energy needs</p>
                     </div>
-                    <a href='/services/maintenance' className='btn btn-primary small'>Read More</a>
+                    <a href='/services' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div>
               <div className='col-md-3 col-lg-3'>
                 <div className='item'>
                   <div className='service-image'>
-                    <img src={ServiceImg} alt='' className='w-100' />
+                    <img src={ServiceImg4} alt='' className='w-100' />
                   </div>
                   <div className='service-body'>
                     <div className='service-title'>
@@ -106,7 +110,7 @@ const home = () => {
                     <div className='service-content'>
                       <p>We believe in empowering the next generation of technicians through our specialized training programs.</p>
                     </div>
-                    <a href='/services/inverters' className='btn btn-primary small'>Read More</a>
+                    <a href='/services' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div>
@@ -120,9 +124,8 @@ const home = () => {
           <div className='container py-5'>
           <div className='section-header text-center'>
               <span>Why Choose TD Solar?</span>
-              <h2>Discover our wide variety of projects.</h2>
-              <p>Created in close partnership with our clients and collaborators, this approach merges industry expertise,<br/>
-              decades of experience, innovation, and flexibility to consistently deliver excellence.</p>
+              <h2>Empowering a Greener Future with Sustainable Energy Solutions</h2>
+              <p>At TD Solar, we envision a future where clean, renewable energy is accessible to all. <br />Our mission is to provide innovative, affordable, and sustainable energy solutions that benefit both our clients and the environment.</p>
             </div>
             <div className='row pt-4'>
               <div className='col-md-3'>
@@ -141,7 +144,7 @@ const home = () => {
               <div className='col-md-3'>
                 <div className='card shadow border-0 p-4'>
                   <div className='card-icon'>
-                    <img src={Icon2} alt='' />
+                    <img src={Icon3} alt='' />
                   </div>
                   <div className='card-title mt-3'>
                     <h3>Quality Assurance: </h3>
@@ -154,7 +157,7 @@ const home = () => {
               <div className='col-md-3'>
                 <div className='card shadow border-0 p-4'>
                   <div className='card-icon'>
-                    <img src={Icon3} alt='' />
+                    <img src={Icon2} alt='' />
                   </div>
                   <div className='card-title mt-3'>
                     <h3>Driven by you: </h3>
@@ -167,7 +170,7 @@ const home = () => {
               <div className='col-md-3'>
                 <div className='card shadow border-0 p-4'>
                   <div className='card-icon'>
-                    <img src={Icon3} alt='' />
+                    <img src={Icon4} alt='' />
                   </div>
                   <div className='card-title mt-3'>
                     <h3>Sustainability: </h3>
@@ -183,12 +186,12 @@ const home = () => {
         {/* Why Choose-us Ends*/}
 
         {/* Our Projects Starts*/}
-        <section className='section-3 bg-light py-5'>
+        <section className='section-3 bg-light py-3'>
           <div className='container-fluid py-5'>
             <div className='section-header text-center'>
               <span>our projects</span>
               <h2>Discover our diverse range of projects</h2>
-              <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.</p>
+              <p>We specialize in solar panel installation services for residential, commercial, <br />and industrial projects, ensuring reliable and sustainable energy solutions tailored to meet diverse needs.</p>
             </div>
             <div className='row pt-4'>
               <div className='col-md-3 col-lg-3'>
@@ -203,7 +206,7 @@ const home = () => {
                     <div className='service-content'>
                       <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques. Unlike general construction</p>
                     </div>
-                    <a href='#' className='btn btn-primary'>Read More</a>
+                    <a href='/projects' className='btn btn-primary'>Read More</a>
                   </div>
                 </div>
               </div>
@@ -219,7 +222,7 @@ const home = () => {
                     <div className='service-content'>
                       <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques. Unlike general construction</p>
                     </div>
-                    <a href='#' className='btn btn-primary small'>Read More</a>
+                    <a href='/projects' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div>
@@ -235,7 +238,7 @@ const home = () => {
                     <div className='service-content'>
                       <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques. Unlike general construction</p>
                     </div>
-                    <a href='#' className='btn btn-primary small'>Read More</a>
+                    <a href='/projects' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div>
@@ -251,7 +254,7 @@ const home = () => {
                     <div className='service-content'>
                       <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques. Unlike general construction</p>
                     </div>
-                    <a href='#' className='btn btn-primary small'>Read More</a>
+                    <a href='/projects' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div>
@@ -266,7 +269,7 @@ const home = () => {
             <div className='section-header text-center'>
               <span>Testimonials</span>
               <h2>What people are saying about us</h2>
-              <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.</p>
+              <p>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</p>
             </div>
             <Swiper
                 modules={[Pagination]}
@@ -443,7 +446,7 @@ const home = () => {
             <div className='section-header text-center'>
               <span>Blog & News</span>
               <h2> Articles & blog posts</h2>
-              <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.</p>
+              <p>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</p>
             </div>
             <div className='row pt-3'>
               <div className='col-md-4'>
@@ -455,7 +458,7 @@ const home = () => {
                     <div className='mb-3'>
                       <a href='#' className='title'>Dummy blog title</a>
                     </div>
-                    <a href='#' className='btn btn-primary small'>Read More</a>
+                    <a href='/blogs' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div> 
@@ -468,7 +471,7 @@ const home = () => {
                     <div className='mb-3'>
                       <a href='#' className='title'>Dummy blog title</a>
                     </div>
-                    <a href='#' className='btn btn-primary small'>Read More</a>
+                    <a href='/blogs' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div> 
@@ -481,7 +484,7 @@ const home = () => {
                     <div className='mb-3'>
                       <a href='#' className='title'>Dummy blog title</a>
                     </div>
-                    <a href='#' className='btn btn-primary small'>Read More</a>
+                    <a href='/blogs' className='btn btn-primary small'>Read More</a>
                   </div>
                 </div>
               </div> 

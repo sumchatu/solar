@@ -22,14 +22,14 @@ export const HeroSlider = () => {
                 <Carousel.Caption>
                 <span>Welcome To TD Solar</span>
                 <h2>
-                    Power Your Home with the Sun - Clean, Reliable, and Affordable Solar Energy by TD Solar!
+                    Power Your Home with the Sun - Clean, Reliable, and Affordable Solar Energy by <br />TD Solar!
                 </h2>
                 <p>
                     Switch to solar today and save on electricity bills while reducing your carbon footprint. Let TD Solar handle the setup – hassle-free!
                 </p>
                 <div className="mt-4">
-                    <a className="btn btn-primary small">Contact Now</a>
-                    <a className="btn btn-secondary small ms-2">View Projects</a>
+                    <a href='/contact' className="btn btn-primary small">Contact Now</a>
+                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -49,8 +49,8 @@ export const HeroSlider = () => {
                     With TD Solar’s expert installations, enjoy unlimited energy savings and a greener planet. Start your solar journey now!
                 </p>
                 <div className="mt-4">
-                    <a className="btn btn-primary small">Contact Now</a>
-                    <a className="btn btn-secondary small ms-2">View Projects</a>
+                    <a href='/contact' className="btn btn-primary small">Contact Now</a>
+                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -70,8 +70,8 @@ export const HeroSlider = () => {
                     From design to installation, TD Solar provides top-quality Solar PV systems tailored to your needs. Experience energy independence today!
                 </p>
                 <div className="mt-4">
-                    <a className="btn btn-primary small">Contact Now</a>
-                    <a className="btn btn-secondary small ms-2">View Projects</a>
+                    <a href='/contact' className="btn btn-primary small">Contact Now</a>
+                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -85,14 +85,14 @@ export const HeroSlider = () => {
                 <Carousel.Caption>
                 <span>Simply Sustainable</span>
                 <h2>
-                    Solar Made Simple – Affordable, Efficient, and Eco-Friendly Energy Solutions by TD Solar!
+                    Solar Made Simple – Affordable, Efficient, and Eco-Friendly Energy Solutions by <br/>TD Solar!
                 </h2>
                 <p>
                     Join the renewable energy revolution with TD Solar’s seamless Solar PV setups. Save money and protect the environment effortlessly.
                 </p>
                 <div className="mt-4">
-                    <a className="btn btn-primary small">Contact Now</a>
-                    <a className="btn btn-secondary small ms-2">View Projects</a>
+                    <a href='/contact' className="btn btn-primary small">Contact Now</a>
+                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>

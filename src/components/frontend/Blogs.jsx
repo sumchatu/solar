@@ -22,7 +22,7 @@ const Blogs = () => {
                     <div className='section-header text-center'>
                         <span>Blog & News</span>
                         <h2> Articles & blog posts</h2>
-                        <p>We offer a diverse array of construction services, spanning residential, commercial, and industrial projects.</p>
+                        <p>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</p>
                     </div>
                     <div className='row pt-3'>
                         <div className='col-md-4'>

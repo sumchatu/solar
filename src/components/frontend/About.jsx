@@ -21,13 +21,33 @@ const About = () => {
             <AboutNew />
           {/* About-us Section Ends*/}
 
+          <div className='container py-1'>
+            <div className='row'>
+              <div className='col-md-6'>
+                <h2>Why Choose TD Solar?</h2>
+                <p>
+                  <b>Expertise:</b> With years of experience in the electrical and solar industries, we bring unmatched knowledge and skills to every project.<br />
+                  <b>Quality Assurance:</b> We use only the best materials and follow industry standards to ensure long-lasting and efficient solutions.<br />
+                  <b>Customer-Centric Approach:</b> Your satisfaction is our priority. We work closely with you to understand your needs and deliver customized solutions.<br />
+                  <b>Sustainability:</b> We are passionate about promoting renewable energy and helping our clients reduce their carbon footprint while saving on energy costs.
+                </p>
+              </div>
+              <div className='col-md-6'>
+                <h2>Our Vision</h2>
+                <p>
+                  At TD Solar, we envision a future where clean, renewable energy is accessible to all. Our mission is to provide innovative, affordable, and sustainable energy solutions that benefit both our clients and the environment. We specialize in solar panel installations for residential, commercial, and industrial projects, ensuring efficiency and long-term performance. Through advanced technology and a commitment to excellence, we aim to reduce carbon footprints and promote a greener, more sustainable future for generations to come.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Our Team Section Starts*/}
             <section className='section-8 bg-light py-5'>
               <div className='container'>
                 <div className='section-header text-center'>
                   <span>Team</span>
                   <h2>Our Team</h2>
-                  <p>We specialize in a wide range of construction services, including residential, commercial, and industrial projects.</p>
+                  <p>Our skilled professionals specialize in providing solar installation services for residential, commercial, and industrial projects. <br />With expertise and dedication, we deliver reliable, efficient, and sustainable energy solutions tailored to meet diverse needs.</p>
                 </div>
                 <div className='row pt-3'>
                   <div className='col-md-6 col-lg-3 mb-3'>
