@@ -134,7 +134,7 @@ const home = () => {
                     <div className='service-content'>
                       <p>We believe in empowering the next generation of technicians through our specialized training programs.</p>
                     </div>
-                    <a href='/services' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/services' className='btn btn-primary small'>Read More</a> */}
                     <NavLink
                       to="/services"
                       className={({ isActive }) =>
