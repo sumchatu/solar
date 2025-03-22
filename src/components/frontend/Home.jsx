@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { NavLink } from 'react-router-dom';
 import Header from '../common/Header';
 import Footer from '../common/Footer';
 import About from '../common/About';
@@ -62,7 +62,15 @@ const home = () => {
                     <div className='service-content'>
                       <p>As a WBSEDCL-empanelled solar contractor, we design and install efficient solar power systems for residential, commercial, and government projects.</p>
                     </div>
-                    <a href='/services' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/services' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/services"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -78,7 +86,15 @@ const home = () => {
                     <div className='service-content'>
                       <p>We provide reliable electrical contracting services for government projects, ensuring quality and compliance.</p>
                     </div>
-                    <a href='/services' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/services' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/services"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -94,7 +110,15 @@ const home = () => {
                     <div className='service-content'>
                       <p>Our expert team offers tailored technical consultancy to help you make informed decisions about your energy needs</p>
                     </div>
-                    <a href='/services' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/services' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/services"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -111,6 +135,14 @@ const home = () => {
                       <p>We believe in empowering the next generation of technicians through our specialized training programs.</p>
                     </div>
                     <a href='/services' className='btn btn-primary small'>Read More</a>
+                    <NavLink
+                      to="/services"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -206,7 +238,15 @@ const home = () => {
                     <div className='service-content'>
                       <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques. Unlike general construction</p>
                     </div>
-                    <a href='/projects' className='btn btn-primary'>Read More</a>
+                    {/* <a href='/projects' className='btn btn-primary'>Read More</a> */}
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -222,7 +262,15 @@ const home = () => {
                     <div className='service-content'>
                       <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques. Unlike general construction</p>
                     </div>
-                    <a href='/projects' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/projects' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -238,7 +286,15 @@ const home = () => {
                     <div className='service-content'>
                       <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques. Unlike general construction</p>
                     </div>
-                    <a href='/projects' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/projects' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -254,7 +310,15 @@ const home = () => {
                     <div className='service-content'>
                       <p>Specialty construction is a niche sector within the construction industry that focuses on projects requiring specialized skills, materials, and techniques. Unlike general construction</p>
                     </div>
-                    <a href='/projects' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/projects' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -458,7 +522,15 @@ const home = () => {
                     <div className='mb-3'>
                       <a href='#' className='title'>Dummy blog title</a>
                     </div>
-                    <a href='/blogs' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/blogs' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/blogs"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div> 
@@ -471,7 +543,15 @@ const home = () => {
                     <div className='mb-3'>
                       <a href='#' className='title'>Dummy blog title</a>
                     </div>
-                    <a href='/blogs' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/blogs' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/blogs"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div> 
@@ -484,7 +564,15 @@ const home = () => {
                     <div className='mb-3'>
                       <a href='#' className='title'>Dummy blog title</a>
                     </div>
-                    <a href='/blogs' className='btn btn-primary small'>Read More</a>
+                    {/* <a href='/blogs' className='btn btn-primary small'>Read More</a> */}
+                    <NavLink
+                      to="/blogs"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Read More
+                    </NavLink>
                   </div>
                 </div>
               </div> 

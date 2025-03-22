@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { NavLink } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CarouselImg1 from '../../assets/images/carousel1.jpg';
@@ -28,8 +28,24 @@ export const HeroSlider = () => {
                     Switch to solar today and save on electricity bills while reducing your carbon footprint. Let TD Solar handle the setup – hassle-free!
                 </p>
                 <div className="mt-4">
-                    <a href='/contact' className="btn btn-primary small">Contact Now</a>
-                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a>
+                    {/* <a href='/contact' className="btn btn-primary small">Contact Now</a> */}
+                    <NavLink
+                      to="/contact"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Contact Now
+                    </NavLink>
+                    {/* <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a> */}
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) =>
+                        `btn btn-secondary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      View Projects
+                    </NavLink>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -49,8 +65,25 @@ export const HeroSlider = () => {
                     With TD Solar’s expert installations, enjoy unlimited energy savings and a greener planet. Start your solar journey now!
                 </p>
                 <div className="mt-4">
-                    <a href='/contact' className="btn btn-primary small">Contact Now</a>
-                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a>
+                    {/* <a href='/contact' className="btn btn-primary small">Contact Now</a>
+                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a> */}
+                    <NavLink
+                      to="/contact"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Contact Now
+                    </NavLink>
+
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) =>
+                        `btn btn-secondary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      View Projects
+                    </NavLink>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -70,8 +103,25 @@ export const HeroSlider = () => {
                     From design to installation, TD Solar provides top-quality Solar PV systems tailored to your needs. Experience energy independence today!
                 </p>
                 <div className="mt-4">
-                    <a href='/contact' className="btn btn-primary small">Contact Now</a>
-                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a>
+                    {/* <a href='/contact' className="btn btn-primary small">Contact Now</a>
+                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a> */}
+                    <NavLink
+                      to="/contact"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Contact Now
+                    </NavLink>
+
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) =>
+                        `btn btn-secondary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      View Projects
+                    </NavLink>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -91,8 +141,25 @@ export const HeroSlider = () => {
                     Join the renewable energy revolution with TD Solar’s seamless Solar PV setups. Save money and protect the environment effortlessly.
                 </p>
                 <div className="mt-4">
-                    <a href='/contact' className="btn btn-primary small">Contact Now</a>
-                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a>
+                    {/* <a href='/contact' className="btn btn-primary small">Contact Now</a>
+                    <a href='/projects' className="btn btn-secondary small ms-2">View Projects</a> */}
+                    <NavLink
+                      to="/contact"
+                      className={({ isActive }) =>
+                        `btn btn-primary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      Contact Now
+                    </NavLink>
+
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) =>
+                        `btn btn-secondary small ${isActive ? 'active-link' : ''}`
+                      }
+                    >
+                      View Projects
+                    </NavLink>
                 </div>
                 </Carousel.Caption>
             </Carousel.Item>
