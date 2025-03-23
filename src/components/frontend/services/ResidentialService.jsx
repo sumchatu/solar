@@ -25,8 +25,8 @@ const ResidentialService = () => {
                 <section className='section-3 bg-light py-1'>
                 <div className='container py-5'>
                     <div className='section-header text-center'>
-                        <h2>OUR SERVICES- TD SOLAR</h2>
-                        <p>At TD Solar, we are dedicated to providing comprehensive and high-quality energy solutions to meet your needs.<br /> Whether you’re looking to switch to solar power, require electrical contracting services, <br />or need expert technical consultancy, we’ve got you covered. Here’s a detailed look at the services we offer:</p>
+                        <h2><u>OUR SERVICES- TD SOLAR</u></h2>
+                        <h3>At TD Solar, we are dedicated to providing comprehensive and high-quality energy solutions to meet your needs.<br /> Whether you’re looking to switch to solar power, require electrical contracting services, <br />or need expert technical consultancy, we’ve got you covered. Here’s a detailed look at the services we offer:</h3>
                     </div>
                     <br />
                     <div className='container py-3'>
@@ -80,7 +80,7 @@ const ResidentialService = () => {
                                 </div>
                                 <div className='service-content'>
                                 <p>
-                                    Switch to clean, renewable energy with TD Solar’s expert Solar PV solutions. As a WBSEDCL-empanelled contractor, we design, install, and maintain high-quality solar power systems for homes, businesses, and government projects. Our customized solar solutions help you save on electricity bills, reduce your carbon footprint, and achieve energy independence. From initial consultation to seamless installation and ongoing maintenance, we ensure a hassle-free experience. Let us help you harness the power of the sun for a brighter, greener future!
+                                    Switch to clean, renewable energy with TD Solar’s expert Solar PV solutions. As a WBSEDCL-empanelled contractor, we design, install, and maintain high-quality solar systems for homes, businesses, and government projects. Our customized solutions help you save on electricity bills, reduce your carbon footprint, and achieve energy independence. Enjoy a hassle-free experience from consultation to installation and maintenance. Harness the power of the sun for a brighter, greener future!
                                 </p>
                                 </div>
                                 {/* <a href='/services/residential' className='btn btn-primary small'>Read More</a> */}
