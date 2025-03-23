@@ -13,7 +13,7 @@ const Footer = () => {
             <h3 className='mb-3'>TD SOLAR</h3>
             <div className='pe-5'>
               <p>
-                We offer customized Solar Solutions for Every Need, Spanning Residential, Commercial, and Industrial Projects.
+                We Offer Tailored Solar Solutions to Meet Every Need — Delivering Reliable Power for Homes, Businesses, and Industries!
               </p>
             </div>
             {/* Social Media Icons */}

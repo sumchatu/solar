@@ -19,10 +19,9 @@ const ContactUs = () => {
                 <section className='section-9 py-5'>
                     <div className='container'>
                         <div className='section-header text-center'>
-                            <span></span>
-                            <h2>Contact Us</h2>
-                            <p>Our dedicated experts are here to help you with any of your questions, contact us by<br/>
-                            filling out the form below and we will be in touch shortly.</p>
+                            <span>Contact Us</span>
+                            <h3>Our dedicated experts are here to help you with any of your questions, contact us by<br/>
+                            filling out the form below and we will be in touch shortly.</h3>
                         </div>
                         <div className='row mt-5'>
                             <div className='col-md-3'>

@@ -47,7 +47,7 @@ const About = () => {
                 <div className='section-header text-center'>
                   <span>Team</span>
                   <h2>Our Team</h2>
-                  <p>Our skilled professionals specialize in providing solar installation services for residential, commercial, and industrial projects. <br />With expertise and dedication, we deliver reliable, efficient, and sustainable energy solutions tailored to meet diverse needs.</p>
+                  <h3>Our skilled professionals specialize in providing solar installation services for residential, commercial, and industrial projects. <br />With expertise and dedication, we deliver reliable, efficient, and sustainable energy solutions tailored to meet diverse needs.</h3>
                 </div>
                 <div className='row pt-3'>
                   <div className='col-md-6 col-lg-3 mb-3'>

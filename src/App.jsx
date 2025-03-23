@@ -13,6 +13,7 @@ import CommercialService from './components/frontend/services/CommercialService'
 import MaintenanceService from './components/frontend/services/MaintenanceService';
 import InverterService from './components/frontend/services/InverterService';
 import WhatsAppCTA  from './components/common/WhatsAppCTA';
+import ScrollToTop from './components/common/ScrollToTop';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

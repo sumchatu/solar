@@ -45,7 +45,7 @@ const home = () => {
             <div className='section-header text-center'>
               <span>our services</span>
               <h2>From Consultation to Installation</h2>
-              <p>At TD Solar, we offer a wide range of services to meet your energy needs:</p>
+              <h3>At TD Solar, we offer a wide range of services to meet your energy needs:</h3>
             </div>
             <div className='row pt-4'>
               <div className='col-md-3 col-lg-3'>
@@ -157,7 +157,7 @@ const home = () => {
           <div className='section-header text-center'>
               <span>Why Choose TD Solar?</span>
               <h2>Empowering a Greener Future with Sustainable Energy Solutions</h2>
-              <p>At TD Solar, we envision a future where clean, renewable energy is accessible to all. <br />Our mission is to provide innovative, affordable, and sustainable energy solutions that benefit both our clients and the environment.</p>
+              <h3>At TD Solar, we envision a future where clean, renewable energy is accessible to all. <br />Our mission is to provide innovative, affordable, and sustainable energy solutions that benefit both our clients and the environment.</h3>
             </div>
             <div className='row pt-4'>
               <div className='col-md-3'>
@@ -223,7 +223,7 @@ const home = () => {
             <div className='section-header text-center'>
               <span>our projects</span>
               <h2>Discover our diverse range of projects</h2>
-              <p>We specialize in solar panel installation services for residential, commercial, <br />and industrial projects, ensuring reliable and sustainable energy solutions tailored to meet diverse needs.</p>
+              <h3>We specialize in solar panel installation services for residential, commercial, <br />and industrial projects, ensuring reliable and sustainable energy solutions tailored to meet diverse needs.</h3>
             </div>
             <div className='row pt-4'>
               <div className='col-md-3 col-lg-3'>
@@ -333,7 +333,7 @@ const home = () => {
             <div className='section-header text-center'>
               <span>Testimonials</span>
               <h2>What people are saying about us</h2>
-              <p>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</p>
+              <h3>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</h3>
             </div>
             <Swiper
                 modules={[Pagination]}
@@ -510,7 +510,7 @@ const home = () => {
             <div className='section-header text-center'>
               <span>Blog & News</span>
               <h2> Articles & blog posts</h2>
-              <p>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</p>
+              <h3>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</h3>
             </div>
             <div className='row pt-3'>
               <div className='col-md-4'>

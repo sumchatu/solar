@@ -22,7 +22,7 @@ const Projects = () => {
                     <div className='section-header text-center'>
                         <span>our projects</span>
                         <h2>Discover our diverse range of projects</h2>
-                        <p>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</p>
+                        <h3>We offer a diverse array of solar energy solutions, spanning residential, commercial, and industrial projects.</h3>
                     </div>
                     <div className='row pt-4'>
                         <div className='col-md-4 col-lg-4'>
