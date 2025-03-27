@@ -4,7 +4,9 @@ import { faFacebook, faYoutube, faLinkedin, faWhatsapp } from '@fortawesome/free
 
 function WhatsAppCTA() {
   const whatsappNumber = '+919775550672'; // Replace with the actual WhatsApp number
-  const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  // const whatsappLink = `https://wa.me/${whatsappNumber}`;
+  const message = encodeURIComponent("Hello, I would like to inquire about your services."); // Replace with your desired message
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
 
   return (
     <div className="whatsapp-cta">
