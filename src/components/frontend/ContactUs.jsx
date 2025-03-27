@@ -26,7 +26,7 @@ const ContactUs = () => {
                         <div className='row mt-5'>
                             <div className='col-md-3'>
                                 <div className='card shadow border-0 mb-3'>
-                                    <div className='card-body p-4'>
+                                    <div className='card-body p-2'>
                                         <h3>Call Us</h3>
                                         <div>
                                             <a href='#'>+91 9775550672</a>
@@ -34,22 +34,28 @@ const ContactUs = () => {
                                         <div>
                                             <a href='#'>+91 9775550672</a>
                                         </div>
-
-                                        <h3 className='mt-4'>You can write us</h3>
+                                    </div>
+                                </div>
+                                <div className='card shadow border-0 mb-3'>
+                                    <div className='card-body p-2'>
+                                        <h3 className='mt-4'>Write us</h3>
                                         <div>
                                             <a href='#'>abc@abc.com</a>
                                         </div>
                                         <div>
                                             <a href='#'>info@abc.com</a>
                                         </div>
-                                        
+                                    </div>
+                                </div>
+                                <div className='card shadow border-0 mb-3'>
+                                    <div className='card-body p-2'>          
                                         <h3 className='mt-4'>Visit Us</h3>
                                         <div>
                                            <u> Our office is located at:</u> <br />
                                             <b>TD Solar (Technical Dwipayan)</b>
                                             <br />
-                                            GN/Shop No. - G2 and G5, Rajnandini Villa,<br />
-                                            Khardaha Thana Road, Near Avinobo Sweet,<br />
+                                            GN/Shop No. - G2 and G5, Rajnandini Villa, Khardaha<br />
+                                            Khardaha Thana Road<br />
                                             North 24 Parganas, Kolkata - 700116
                                         </div>
                                     </div>
@@ -84,6 +90,23 @@ const ContactUs = () => {
                                             <button className='btn btn-primary large mt-3'>Submit</button>
                                         </form>
                                     </div>
+                                </div>
+                            </div>
+                            {/* Google Map Section */}
+                            <div className='col-md-12'>
+                                <div className='mt-4'>
+                                    <h3>Find Us Here</h3>
+                                    <iframe
+                                        title="Google Map"
+                                        // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.965867571443!2d<YOUR_LONGITUDE>!3d<YOUR_LATITUDE>!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8bb64a5c5b867%3A0x7ad2f9ee7e5a285f!5e0!3m2!1sen!2sin!4v1618209027489!5m2!1sen!2sin"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.965867571443!2d88.374201676429!3d22.71839097929865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8bb64a5c5b867%3A0x7ad2f9ee7e5a285f!2sRajnandini%20Villa%2C%20Khardaha%2C%20West%20Bengal%20700116!5e0!3m2!1sen!2sin!4v1618209027489!5m2!1sen!2sin"
+                                        width="100%"
+                                        height="500"
+                                        style={{ border: 0 }}
+                                        allowFullScreen=""
+                                        loading="lazy"
+                                        referrerPolicy="no-referrer-when-downgrade"
+                                    ></iframe>
                                 </div>
                             </div>
                         </div>

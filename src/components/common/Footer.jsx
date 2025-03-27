@@ -97,8 +97,8 @@ const Footer = () => {
                 <a href="mailto:abc@abc.com">abc@abc.com</a>
               </li>
               <p>
-                GN/Shop No. - G2 and G5, <br />Rajnandini Villa,<br />
-                Khardaha Thana Road, <br /> Near Avinobo Sweet,<br />
+                GN/Shop No. - G2 and G5, <br />Rajnandini Villa, Khardaha<br />
+                Khardaha Thana Road, <br />
                 North 24 Parganas, <br /> Kolkata - 700116
               </p>
             </ul>

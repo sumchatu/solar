@@ -176,9 +176,29 @@ header {
         text-transform: uppercase;
         font-weight: 500;
     }
-}
-  
 
+    @media (max-width: 768px) { /* Target screens with width 768px or smaller */
+        .navbar-collapse {
+          background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+          padding: 10px; /* Optional: cleaner look */
+          position: absolute; /* Keeps it positioned on top */
+          top: 60px; /* Adjusts the alignment below the header */
+          width: 100%; /* Ensures full-width dropdown */
+          z-index: 999; /* Keeps dropdown above other content */
+        }
+      
+        .navbar-toggler {
+          border: none; /* Removes border around the icon */
+        }
+      
+        .navbar-collapse.show {
+          transition: all 0.3s ease-in-out; /* Smooth transition effect */
+        }
+    }
+}
+
+  
 footer {
     background-color: $dark-background;
     color: $text-white;
@@ -597,6 +617,32 @@ footer {
 .whatsapp-cta .whatsapp-icon:hover {
     transform: scale(1.4);
 }
+
+.transparent-dark-modal .modal-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background with 60% opacity */
+    color: white; /* Ensure text remains readable */
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8); /* Add a subtle shadow for depth */
+    border-radius: 10px;
+}
+
+.transparent-dark-modal .modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black backdrop */
+}
+.custom-modal .modal-dialog {
+    width: 90%; /* Adjust width as needed */
+    max-width: 90%; /* Prevent exceeding the screen size */
+    height: auto; /* Allow dynamic height */
+    margin: auto;
+}
+.custom-modal .btn-close {
+    color: red; /* Change the cross button color */
+    background-color: transparent; /* Ensure no background overlaps */
+    font-size: 1.5rem; /* Optional: Increase the size */
+    opacity: 1; /* Ensure full visibility */
+}
+
+
   
   
   
