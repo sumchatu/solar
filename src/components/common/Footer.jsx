@@ -94,7 +94,7 @@ const Footer = () => {
                 <a href="tel:+919732097320">+91 9775550672</a>
               </li>
               <li>
-                <a href="mailto:abc@abc.com">abc@abc.com</a>
+                <a href="mailto:contact@tdsolar.in">contact@tdsolar.in</a>
               </li>
               <p>
                 GN/Shop No. - G2 and G5, <br />Rajnandini Villa, Khardaha<br />
